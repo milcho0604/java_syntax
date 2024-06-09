@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C00HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C00LoopStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C01InputOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C02Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C03Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C04IfStatements.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="&quot;commit&#10;&quot;">
+      <change afterPath="$PROJECT_DIR$/src/C01Basic/C05LoopStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C01Basic/C06String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C01Basic/C07Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C01Basic/C00LoopStatements.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C00LoopStatements">
-    <configuration name="C00LoopStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C00LoopStatements" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01InputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C01InputOutput" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C06String">
     <configuration name="C02Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C01Basic.C02Variable" />
       <module name="java_syntax" />
@@ -120,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05LoopStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C01Basic.C05LoopStatements" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C01Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C01Basic.C06String" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C01Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C00LoopStatements" />
+        <item itemvalue="Application.C06String" />
+        <item itemvalue="Application.C05LoopStatements" />
         <item itemvalue="Application.C04IfStatements" />
         <item itemvalue="Application.C03Operator" />
         <item itemvalue="Application.C02Variable" />
-        <item itemvalue="Application.C01InputOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -144,8 +140,16 @@
       <workItem from="1717548453359" duration="34000" />
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
-      <workItem from="1717548588944" duration="5312000" />
+      <workItem from="1717548588944" duration="25292000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
+      <created>1717555440123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717555440123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +165,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;commit&#10;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;commit&#10;&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_syntax$C00LoopStatements.ic" NAME="C00LoopStatements Coverage Results" MODIFIED="1717569703246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>C01Basic.*</FILTER>
+    </SUITE>
   </component>
 </project>

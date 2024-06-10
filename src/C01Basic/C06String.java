@@ -246,33 +246,190 @@ public class C06String {
 //        answer = sb1.toString();
 //        System.out.println(answer);
 
-
+//        배열 뒤집기
+//        int arr[] ={1, 2};
+//        int s[] = new int[arr.length];
+//        for(int i=0; i< arr.length; i++){
+//            s[i] = arr.length-1;
+//        }
+//        System.out.println(Arrays.toString(s));
 
 //        문자열 밀기 : 프로그래머스
-        String A = "abc";
-        String B = "abcd";
-        int answer = 0;
-        String tempA = A;
-        for (int i = 0; i < A.length()+1; i++) {
-            if(!tempA.equals(B)){
-                String lastText = tempA.substring(tempA.length()-1, tempA.length());
-                StringBuilder sb1 = new StringBuilder(tempA);
-                sb1.delete(sb1.length()-1, sb1.length());
-                sb1.insert(0, lastText);
-                tempA = sb1.toString();
-                answer++;
-            }
-        }
+//        String A = "abc";
+//        String B = "abcd";
+//        int answer = 0;
+//        String tempA = A;
+//        for (int i = 0; i < A.length()+1; i++) {
+//            if(!tempA.equals(B)){
+//                String lastText = tempA.substring(tempA.length()-1, tempA.length());
+//                StringBuilder sb1 = new StringBuilder(tempA);
+//                sb1.delete(sb1.length()-1, sb1.length());
+//                sb1.insert(0, lastText);
+//                tempA = sb1.toString();
+//                answer++;
+//            }
+//        }
+//
+//        if(answer > A.length()){
+//            answer = -1;
+//        }
+//
+//        System.out.println("answer >> "+ answer);
 
-        if(answer > A.length()){
-            answer = -1;
-        }
+//        k번째수 프로그래머스
+//        commands안에 array와 ijk
+//        int[] array = {1, 4, 2, 6, 3, 7, 4};
+//        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+//        int[] answer = new int[commands.length];
+//        for (int i = 0; i < commands.length; i++) {
+//            int start = commands[i][0] - 1;
+//            int end = commands[i][1];
+//            int value = commands[i][2] - 1;
+//            int[] temp = new int[end - start];
+//            int count = 0;
+//            for (int j = start; j < end; j++) {
+//                temp[count] = array[j];
+//                count++;
+//            }
+//            Arrays.sort(temp);
+//            answer[i] = temp[value];
+//        }
+//        System.out.println(Arrays.toString(answer));
 
-        System.out.println("answer >> "+ answer);
+//        선택정렬 알고리즘
+//        int[] arr = {17,20,19,25,12};
+//        for(int i=0; i< arr.length-1; i++){
+//            int min = arr[i];
+//            int index=i;
+//            for(int j=i+1; j< arr           .length; j++){
+//                if(min>arr[j]){
+//                    min = arr[j];
+//                    index = j;
+//                }
+//            }
+//            int temp = arr[i];
+//            arr[i] =arr[index];
+//            arr[index] = temp;
+//        }
+//        System.out.print(Arrays.toString(arr));
+//        int[] arr = {17,12,20,10,25};
+//        for(int i=0; i<arr.length-1; i++){
+//            int min = arr[i];
+//            int index = i;
+//            for(int j=i+1; j<arr.length; j++){
+//                if(min > arr[j]){
+//                    min = arr[j];
+//                    index = j;
+//                }
+//            }
+//            int temp = arr[i];
+//            arr[i] = arr[index];
+//            arr[index] = temp;
+//        }
+//        int[] arr = {17,12,20,10,25};
+//        for(int i=0; i<arr.length-1; i++){
+//            for(int j=i+1; j<arr.length; j++){
+//                if(arr[i] > arr[j]){
+//                    int temp = arr[i];
+//                    arr[i] = arr[j];
+//                    arr[j] = temp;
+//                }
+//            }
+//        }
+//        for(int i=0; i< arr.length; i++){
+//            int index = i;
+//            for(int j=i+1; j< arr.length; j++){
+//                if(arr[index]>arr[j]){
+//                    index=j;
+//                }
+//            }
+//            int temp = arr[i];
+//            arr[i]= arr[index];
+//            arr[index] = temp;
+//        }
+//        System.out.println(Arrays.toString(arr));
 
+//        숫자 조합의 합 : 모두 각기 다른 숫자의 배열이 있을때,
+//        만들어질 수 있는 2개의 조합의 합을 출력
+//        int[] arr = {10,20,30,40,50,60};
+//        for(int i=0;i<arr.length; i++){
+//            int[] total = new int [arr.length];
+//            for(int j=i+1; j<arr.length; j++){
+//                if(arr[i] != arr[j]){
+//                    int temp = arr[j];
+//                    total[i] = arr[i]+arr[j];
+//                }
+//                System.out.println(Arrays.toString(total));
+//            }
+//        for(int i=0; i<arr.length; i++){
+//            for(int j=i+1; j<arr.length; j++){
+//                System.out.println(arr[i]+arr[j]);
+//            }
+//        }
 
+//        배열의 복사 :
+//        copyOf(배열, length), copyOfRange(배열, start, end)
+//        int[] arr = {10,20,30,40,50};
+//        int[] newArr1 = Arrays.copyOf(arr,3);
+//        int[] newArr2 = Arrays.copyOfRange(arr,1,4);
+//        System.out.println(Arrays.toString(newArr1));
+//        System.out.println(Arrays.toString(newArr2));
 
+//        배열의 중복제거
+//        int[] temp = {10, 10, 5, 7, 40, 40, 10, 10};
+//        Arrays.sort(temp);
+//        int[] newTemp = new int[temp.length];
+//        int num=0;
+//
+//        for (int i = 0; i< temp.length; i++){
+//            if(i==0 || temp[i] != temp[i-1]){
+//                newTemp[num]=temp[i];
+//                num++;
+//            }
+//        }
+//        int[] answer = Arrays.copyOfRange(newTemp,0,num);
+//        System.out.println(Arrays.toString(newTemp));
+//        System.out.println(Arrays.toString(answer));
 
+//        프로그래머스 : 두 개 뽑아서 더하기
+//        int[] numbers = {2,1,3,4,1} ;
+//        int count = 0;
+//        Arrays.sort(numbers);
+//        int[] temp =  new int[numbers.length * numbers.length];
+//        for(int i=0; i<numbers.length; i++){
+//           for(int j=i+1; j<numbers.length; j++){
+//               temp[count] = numbers[i]+numbers[j];
+//               count ++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(temp));
+//        temp = Arrays.copyOf(temp,count);
+//        System.out.println(Arrays.toString(temp));
+//        int[] newTemp  = new int [temp.length];
+//        int num=0;
+//        Arrays.sort(temp);
+//        for (int i=0; i<temp.length; i++){
+//            if(i==0 || temp[i] != temp[i-1]){
+//                newTemp[num] = temp[i];
+//                num++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newTemp));
+//        int[] answer = Arrays.copyOfRange(newTemp, 0, num);
+//        System.out.println(Arrays.toString(answer));
+
+//        배열의 검색
+//        int[] arr = {5,3,1,8,7};
+//        int num=0;
+//        for(int i=0; i<arr.length; i++){
+//            if(arr[i] == 8){
+//                num=i;
+//                break;
+//            }
+//        }
+//        System.out.println(num);
+
+//        이진검색(Binary Search)
 
     }
 }

@@ -7,6 +7,7 @@
     <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/C01Basic/C06String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C01Basic/C06String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C01Basic/C07Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C01Basic/C07Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C06String">
-    <configuration name="C02Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C02Variable" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C07Array">
     <configuration name="C03Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C01Basic.C03Operator" />
       <module name="java_syntax" />
@@ -113,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C07Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C01Basic.C07Array" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C01Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C07Array" />
         <item itemvalue="Application.C06String" />
         <item itemvalue="Application.C05LoopStatements" />
         <item itemvalue="Application.C04IfStatements" />
         <item itemvalue="Application.C03Operator" />
-        <item itemvalue="Application.C02Variable" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="12266000" />
+      <workItem from="1717977369678" duration="16781000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717937540822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basic">
+      <created>1717989676779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717989676779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

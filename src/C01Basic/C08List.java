@@ -74,7 +74,7 @@ public class C08List {
 ////        가장 먼저 나오는 값의 Index return
 //        System.out.println(myList.indexOf(10));
 
-//        전체삭제 : clear()
+//        clear() : 전체삭제
 //        isEmpty() : 값이 비었는지, 안 비었는지
 //        contains : 특정값이 있는지 없는지 확인
 //        List<Integer> list = new ArrayList<>();

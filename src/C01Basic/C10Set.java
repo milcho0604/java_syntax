@@ -54,7 +54,7 @@ public class C10Set {
 //        myList.add("ball");
 //        myList.add("ball");
 //
-////        list를 인자값으로 받아서 초긱밧 세팅 가능
+////        list를 인자값으로 받아서 초기값 세팅 가능
 //        Set<String> mySet = new HashSet<>(myList);
 //        System.out.println(mySet);
 //

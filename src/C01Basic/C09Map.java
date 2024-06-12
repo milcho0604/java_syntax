@@ -20,7 +20,7 @@ public class C09Map {
 ////        putIfAbsent : 비어있으면 put
 //        myMap.putIfAbsent("basketball", "배구");
 
-////        geOrDefault " key가 없으면 default값 return
+////        getOrDefault " key가 없으면 default값 return
 //        System.out.println(myMap.get("baseball"));
 //        System.out.println(myMap.getOrDefault("baseball", "비어있음"));
 //        System.out.println(myMap.containsKey("baseball"));

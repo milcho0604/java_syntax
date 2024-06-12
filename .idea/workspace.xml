@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Que..Deque..Stack..">
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C11Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C12Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C13Deque.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="java methods end">
+      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0201Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0201MethodPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0202Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C01Basic/C11QueStackDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C01Basic/C09Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C01Basic/C09Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C01Basic/C10Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C01Basic/C10Set.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C13Deque">
-    <configuration name="C09Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C09Map" />
+  <component name="RunManager" selected="Application.C0202Class">
+    <configuration name="C0201Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C02ClassBasic.C0201Method" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C02ClassBasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C10Set" />
+    <configuration name="C0201MethodPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C02ClassBasic.C0201MethodPractice" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C02ClassBasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C11Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C11Queue" />
+    <configuration name="C0202Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C02ClassBasic.C0202Class" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C02ClassBasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C0202Class" />
+        <item itemvalue="Application.C0201MethodPractice" />
+        <item itemvalue="Application.C0201Method" />
         <item itemvalue="Application.C13Deque" />
         <item itemvalue="Application.C12Stack" />
-        <item itemvalue="Application.C11Queue" />
-        <item itemvalue="Application.C10Set" />
-        <item itemvalue="Application.C09Map" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="64285000" />
+      <workItem from="1717977369678" duration="68607000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718089327500</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="java methods end">
+      <created>1718158456879</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718158456879</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +240,8 @@
     <MESSAGE value="Plus set" />
     <MESSAGE value="set" />
     <MESSAGE value="Que..Deque..Stack.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Que..Deque..Stack.." />
+    <MESSAGE value="java methods end" />
+    <option name="LAST_COMMIT_MESSAGE" value="java methods end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

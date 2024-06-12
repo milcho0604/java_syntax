@@ -37,7 +37,23 @@ public class C0202Class {
         m2.sumAcc(100);
         m2.sumAcc(200);
         m2.sumAcc(300);
-        System.out.println(m2.total);체
+        System.out.println(m2.total);
+
+//        변수값에 직정 접근하여 값을 할당하는 방식 -> 크게 좋은 방법이 아님
+        C0203Person person1 = new C0203Person();
+//        person1.name = "홍길동";
+//        person1.email = "hong@naver.com";
+//        person1.age = 15;
+//        person1.eating();
+//        System.out.println(person1.name + person1.email + person1.age); // 값을 꺼냄
+
+//        일반적인 패턴은 변수값에 직접 접근하지 않는다.
+//        의도를 명확히한 메서드를 통해 변수값을 할당하고 가져옴.
+
+        person1.setName("홍길동");
+        person1.eating();
+        System.out.println();
+
     }
 
 }

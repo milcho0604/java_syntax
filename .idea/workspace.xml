@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="자바로 간단한 은행 송금 구현">
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C1201StackFunction1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C01Basic/C1202StackFunction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0206RecursiveBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0207RecurCombrPermu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0208Combi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/C0209Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C02ClassBasic/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0301Inheritance.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="finish C02">
+      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0302SuperChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0303MethodOverriding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C02ClassBasic/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C02ClassBasic/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C03Inheritance/C0301Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C03Inheritance/C0301Inheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.C0209Permutation">
-    <configuration name="C0206RecursiveBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C02ClassBasic.C0206RecursiveBasic" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C02ClassBasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C0303MethodOverriding">
     <configuration name="C0207RecurCombrPermu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C02ClassBasic.C0207RecurCombrPermu" />
       <module name="java_syntax" />
@@ -99,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C1201StackFunction1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C1201StackFunction1" />
+    <configuration name="C0301Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0301Inheritance" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C03Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C1202StackFunction2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C1202StackFunction2" />
+    <configuration name="C0302SuperChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0302SuperChildClass" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C03Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0303MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0303MethodOverriding" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C03Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C0303MethodOverriding" />
+        <item itemvalue="Application.C0302SuperChildClass" />
+        <item itemvalue="Application.C0301Inheritance" />
         <item itemvalue="Application.C0209Permutation" />
         <item itemvalue="Application.C0207RecurCombrPermu" />
-        <item itemvalue="Application.C0206RecursiveBasic" />
-        <item itemvalue="Application.C1202StackFunction2" />
-        <item itemvalue="Application.C1201StackFunction1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +144,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="108119000" />
+      <workItem from="1717977369678" duration="110105000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -236,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718194189200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish C02">
+      <created>1718266806043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718266806043</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +266,8 @@
     <MESSAGE value="java methods end" />
     <MESSAGE value="클래스와 객체" />
     <MESSAGE value="자바로 간단한 은행 송금 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바로 간단한 은행 송금 구현" />
+    <MESSAGE value="finish C02" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish C02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

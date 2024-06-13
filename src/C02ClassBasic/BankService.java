@@ -91,11 +91,15 @@ public class BankService {
 
 
 class BankAccount {
+//    static long id;
+//    private Long static_id;
     private String accountNumber; // 계좌
     private int balance;          // 잔액
 
     // 별도 생성자
     public BankAccount(String accountNumber, int balance) {
+//        id+=1;
+//        id =static_id;
         this.accountNumber = accountNumber;
         this.balance = balance;
     }

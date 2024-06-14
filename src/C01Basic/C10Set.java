@@ -15,13 +15,15 @@ public class C10Set {
 //        mySet.add("o");
 //        System.out.println(mySet);
 
-        // nums에서 중복되지 않은 2개의 경우의수
-//        int[] nums = {3,3,3,2,2,4]};
-//        Set<Integer> mySet = new HashSet<>();
-//        int count =0;
-//        for (int i=0; i<nums.length; i++) {
-//            mySet.add(nums[i]);
-//        }
+//         nums에서 중복되지 않은 2개의 경우의수
+        int[] nums = {3,3,3,2,2,4};
+        Set<Integer> mySet = new HashSet<>();
+        int count =0;
+        for (int i=0; i<nums.length; i++) {
+            mySet.add(nums[i]);
+        }
+        System.out.println(mySet);
+
 //        List<Integer> list = new ArrayList<>(mySet);
 //        for(int i=0; i<list.size(); i++){
 //            for (int j=i+1; j<list.size(); j++){
@@ -106,14 +108,14 @@ public class C10Set {
 //        System.out.println(mySet);
 
 //        두개 뽑아서 더하기
-        int[] numbers = {2,1,3,4,1};
-        Set<Integer> set = new TreeSet<>();
-        for(int i=0; i<numbers.length; i++){
-            for(int j=i+1; j<numbers.length; j++){
-                set.add(numbers[i]+numbers[j]);
-            }
-        }
-        System.out.println(set);
+//        int[] numbers = {2,1,3,4,1};
+//        Set<Integer> set = new TreeSet<>();
+//        for(int i=0; i<numbers.length; i++){
+//            for(int j=i+1; j<numbers.length; j++){
+//                set.add(numbers[i]+numbers[j]);
+//            }
+//        }
+//        System.out.println(set);
 
 
 

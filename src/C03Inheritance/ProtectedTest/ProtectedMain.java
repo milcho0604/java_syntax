@@ -1,6 +1,12 @@
+// 루트(최상단) 패키지는 src
+
+
 package C03Inheritance.ProtectedTest;
 
 import C03Inheritance.C0304ProtectedClass;
+// *을 통해 패키지내에 모든 클래스 import 가능
+// *을 통해 패키지내에 패키지까지 포함해서 모든 내용 import는 불가능
+// 즉, improt.java.*은 불가!
 
 public class ProtectedMain extends C0304ProtectedClass {
     public static void main(String[] args) {

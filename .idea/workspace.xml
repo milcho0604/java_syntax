@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="start C03_Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/ProtectedTest/ProtectedMain.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Protected">
+      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0305Others.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/AnimalInterface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/AnimalInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankKakaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/CatImplements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/DogImplements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/InterfaceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C04Interface/StaticFinalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0501InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0502AnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C01Basic/C10Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C01Basic/C10Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C03Inheritance/ProtectedTest/ProtectedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C03Inheritance/ProtectedTest/ProtectedMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2hOa1jfy4DHsbUnCKwaCPHeMD8Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/milcho/code/java/java_syntax/src/C04Interface",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,13 +71,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProtectedMain">
-    <configuration name="C0302SuperChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0302SuperChildClass" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/C04Interface" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="C04Interface" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StaticFinalInterface">
+    <configuration name="C0501InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0501InnerClass" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C03Inheritance.*" />
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0303MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0303MethodOverriding" />
+    <configuration name="C0502AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0502AnonymousClass" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C03Inheritance.*" />
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0304ProtectedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C03Inheritance.C0304ProtectedTest" />
+    <configuration name="C0503ComparableComparator (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0503ComparableComparator" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C03Inheritance.*" />
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C01Basic.C10Set" />
+    <configuration name="C0503ComparableComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0503ComparableComparator" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C01Basic.*" />
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtectedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C03Inheritance.ProtectedTest.ProtectedMain" />
+    <configuration name="StaticFinalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C04Interface.StaticFinalInterface" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C03Inheritance.ProtectedTest.*" />
+          <option name="PATTERN" value="C04Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProtectedMain" />
-        <item itemvalue="Application.C0304ProtectedTest" />
-        <item itemvalue="Application.C10Set" />
-        <item itemvalue="Application.C0303MethodOverriding" />
-        <item itemvalue="Application.C0302SuperChildClass" />
+        <item itemvalue="Application.StaticFinalInterface" />
+        <item itemvalue="Application.C0502AnonymousClass" />
+        <item itemvalue="Application.C0501InnerClass" />
+        <item itemvalue="Application.C0503ComparableComparator" />
+        <item itemvalue="Application.C0503ComparableComparator (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +170,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="113226000" />
+      <workItem from="1717977369678" duration="136384000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -245,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718268578736</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Protected">
+      <created>1718328301046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718328301046</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +308,8 @@
     <MESSAGE value="자바로 간단한 은행 송금 구현" />
     <MESSAGE value="finish C02" />
     <MESSAGE value="start C03_Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="start C03_Inheritance" />
+    <MESSAGE value="Protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Protected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -134,5 +134,27 @@ public class C0505StreamAPI {
 //        3)
         String stArr1[] = students.stream().filter(a->a.getAge()>=30).map(a-> a.getName()).toArray(String[]::new);
         System.out.println(Arrays.toString(stArr1));
+
+
+//        ------------------------------------------------------------------------------------------------------------------------ 아래 opt
+////        Optional 객체 : 특정객체에 값이 없을지도 모른다는 것을 명시적으로 표현
+////        ofNullable : null이 있을수도 있는 경우에 Optional 객체를 생성하는 메서드
+//        Optional<String> opt1 = Optional.ofNullable(null);
+//        String st1 = null;
+//        System.out.println(opt1.get().compareTo(st1));
+
+//        Optional 객체 생성 3가지 방법
+        Optional op1 = Optional.empty();
+        Optional op2 = Optional.of("hello");            // null이 못들어감
+        Optional op3 = Optional.ofNullable("hellio");   // null이 들어갈수 있음
+
+//        Optional 객체 처리 방법 4가지
+//        방법1. isPresent() 확인후 get()
+//        방법2. orElse() : 값이 있으면 있는값 return, 없으면 지정값 return
+//        방법3. orElseGet() : 값이 있으면 있는값 return, 없으며s 람다함수 실행
+//        방법4. orElseThrow() : 가장중요.
+
+
+
     }
 }

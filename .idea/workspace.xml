@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="sort">
-      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamApi.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="StreamApi start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread_basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +64,7 @@
       <recent name="C04Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C0504Thread (1)">
-    <configuration name="C0502AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0502AnonymousClass" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C0505StreamAPI">
     <configuration name="C0503ComparableComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0503ComparableComparator" />
       <module name="java_syntax" />
@@ -92,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0504Thread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
       <module name="java_syntax" />
       <extension name="coverage">
@@ -105,8 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
+    <configuration name="C0504Thread_basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread_basic" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0504Thread_basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread_basic" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0505StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0505StreamAPI" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C0504Thread (1)" />
-        <item itemvalue="Application.C0504Thread" />
+        <item itemvalue="Application.C0505StreamAPI" />
+        <item itemvalue="Application.C0504Thread_basic" />
+        <item itemvalue="Application.C0504Thread_basic" />
         <item itemvalue="Application.C0503ComparableComparator" />
         <item itemvalue="Application.StaticFinalInterface" />
-        <item itemvalue="Application.C0502AnonymousClass" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +168,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="147406000" />
+      <workItem from="1717977369678" duration="156277000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -270,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718518894063</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="StreamApi start">
+      <created>1718591594615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718591594615</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +322,8 @@
     <MESSAGE value="start C03_Inheritance" />
     <MESSAGE value="Protected" />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="StreamApi start" />
+    <option name="LAST_COMMIT_MESSAGE" value="StreamApi start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

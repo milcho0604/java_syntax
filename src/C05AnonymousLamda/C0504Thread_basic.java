@@ -1,6 +1,6 @@
 package C05AnonymousLamda;
 
-public class C0504Thread {
+public class C0504Thread_basic {
     public static void main(String[] args) {
 //        쓰레드 구현 방법 : 쓰레드 상속, Runnable 주입
 //        Runnable 인터페이스 : 쓰레드 구현

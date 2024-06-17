@@ -33,14 +33,14 @@ public class C0503ComparableComparator {
 //        myList.sort(Comparator.naturalOrder());
 //        myList.sort(Comparator.reverseOrder());
 
-        List<Student> students = new ArrayList<>();
-        students.add(new Student("kim",19));
-        students.add(new Student("lee",29));
-        students.add(new Student("aprk",15));
-        students.add(new Student("sksi",30));
-        students.add(new Student("kim",25));
+//        List<Student> students = new ArrayList<>();
+//        students.add(new Student("kim", 19));
+//        students.add(new Student("lee", 29));
+//        students.add(new Student("aprk", 15));
+//        students.add(new Student("sksi", 30));
+//        students.add(new Student("kim", 25));
 
-        System.out.println(students);
+//        System.out.println(students);
 //        방법1. Student객체에서 Comparable을 구현 => compareTo 메서드를 오버라이딩
 //        Collections.sort(students);
 //        for(int i=0; i<students.size(); i++){
@@ -60,13 +60,14 @@ public class C0503ComparableComparator {
 //        for(Student s : students){
 //            System.out.println(s.getName()+ s.getAge());;
 //        }
+        // 람다함수로 구현한 것
 //        students.sort((a,b)->a.getName().compareTo(b.getName()));
 //        for(Student s : students){
 //            System.out.println(s.getName()+ s.getAge());;
 //        }
 
 //        아래 문자열을 글자길이 순서로 내림차순 정렬
-        String arr[] = {"hello", "java", "c++", "world2"};
+//        String arr[] = {"hello", "java", "c++", "world2"};
 //        Arrays.sort(arr,Comparator.reverseOrder());
 
 //        Arrays.sort(arr, new Comparator<String>() {
@@ -84,9 +85,16 @@ public class C0503ComparableComparator {
 //        List<int[]> myList = new ArrayList<>();
 //        myList.add(new int[]{4, 5});
 //        myList.add(new int[]{1, 2});
-//        myList.add(new int[]{5, 0});
+//        myList.add(new int[]{5, 5});
 //        myList.add(new int[]{3, 1});
-//        myList.sort((a,b) ->b[1]-a[1]);
+//        myList.sort((a,b) ->{
+//            if(b[1]!=a[1]){
+//                return b[1]-a[1];
+//            }
+//            else {
+//                return b[0] - a[0];
+//            }
+//        });
 //
 //        for(int[]a : myList){
 //            System.out.println(Arrays.toString(a));
@@ -107,6 +115,49 @@ public class C0503ComparableComparator {
 //            System.out.println(Arrays.toString(a));
 //        };
 
+//        String arr[] = {"hello", "java", "C++", "world2"};
+////        Queue<String> pq = new PriorityQueue<>(Comparator.reverseOrder());
+////        글자 길이 내림차순 pq
+//        Queue<String> pq = new PriorityQueue<>((a,b)-> b.length()-a.length());
+//        for(String s : arr){
+//            pq.add(s);
+//        }
+//        while(!pq.isEmpty()){
+//            System.out.println(pq.poll());
+//        }
+
+//       프로그래머스 : 가장 큰 수
+//        class Solution {
+//            public String solution(int[] numbers) {
+//                String[] strNumbers = new String[numbers.length];
+//                for (int i = 0; i < numbers.length; i++) {
+//                    strNumbers[i] = String.valueOf(numbers[i]);
+//                }
+//                Arrays.sort(strNumbers, new Comparator<String>() {
+//                    @Override
+//                    public int compare(String o1, String o2) {
+//                        return (o2 + o1).compareTo(o1 + o2);
+//                    }
+//                });
+//                if (strNumbers[0].equals("0")) {
+//                    return "0";
+//                }
+//                StringBuilder result = new StringBuilder();
+//                for (String str : strNumbers) {
+//                    result.append(str);
+//                }
+//                return result.toString();
+//            }
+//        }
+
+//        Runnable 인터페이스 : 쓰레드 구현
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("새로 생선한 쓰레드1 입니다.");
+            }
+        });
+        t1.start();
 
     }
 }
@@ -124,18 +175,18 @@ class Student{
     public int getAge() {
         return age;
     }
-//    모든 클래스의 조상클래스인 Object클래스이 toString 메서드를 Overriding하여
-//    객체 호출시에 자동으로 toString 메서드 호출
-    @Override
-    public String toString(){
-        return "이름 :" +this.name + ", 나이 : " +this.age;
-    }
-
+////    모든 클래스의 조상클래스인 Object클래스이 toString 메서드를 Overriding하여
+////    객체 호출시에 자동으로 toString 메서드 호출
 //    @Override
-//    public int compareTo(Student s) {
-//        return this.age - s.getAge();
+//    public String toString(){
+//        return "이름 :" +this.name + ", 나이 : " +this.age;
 //    }
+//
+////    @Override
 ////    public int compareTo(Student s) {
-////        return this.name.compareTo(s.getName());
+////        return this.age - s.getAge();
 ////    }
+//////    public int compareTo(Student s) {
+//////        return this.name.compareTo(s.getName());
+//////    }
 }

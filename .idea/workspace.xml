@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Protected">
-      <change afterPath="$PROJECT_DIR$/src/C03Inheritance/C0305Others.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/AnimalInterface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/AnimalInterface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankKakaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/BankService/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/CatImplements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/DogImplements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/InterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C04Interface/StaticFinalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0501InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0502AnonymousClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="sort">
+      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C03Inheritance/C0304ProtectedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C03Inheritance/ProtectedTest/ProtectedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C03Inheritance/ProtectedTest/ProtectedMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +65,7 @@
       <recent name="C04Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticFinalInterface">
-    <configuration name="C0501InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0501InnerClass" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C0504Thread (1)">
     <configuration name="C0502AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0502AnonymousClass" />
       <module name="java_syntax" />
@@ -106,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0503ComparableComparator (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="C0503ComparableComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0503ComparableComparator" />
       <module name="java_syntax" />
       <extension name="coverage">
@@ -119,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0503ComparableComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0503ComparableComparator" />
+    <configuration name="C0504Thread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C05AnonymousLamda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C0504Thread (1)" />
+        <item itemvalue="Application.C0504Thread" />
+        <item itemvalue="Application.C0503ComparableComparator" />
         <item itemvalue="Application.StaticFinalInterface" />
         <item itemvalue="Application.C0502AnonymousClass" />
-        <item itemvalue="Application.C0501InnerClass" />
-        <item itemvalue="Application.C0503ComparableComparator" />
-        <item itemvalue="Application.C0503ComparableComparator (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +156,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="136384000" />
+      <workItem from="1717977369678" duration="147406000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -277,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718328301046</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="sort">
+      <created>1718518894063</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718518894063</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +302,8 @@
     <MESSAGE value="finish C02" />
     <MESSAGE value="start C03_Inheritance" />
     <MESSAGE value="Protected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Protected" />
+    <MESSAGE value="sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

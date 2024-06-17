@@ -175,12 +175,12 @@ class Student{
     public int getAge() {
         return age;
     }
-////    모든 클래스의 조상클래스인 Object클래스이 toString 메서드를 Overriding하여
-////    객체 호출시에 자동으로 toString 메서드 호출
-//    @Override
-//    public String toString(){
-//        return "이름 :" +this.name + ", 나이 : " +this.age;
-//    }
+//    모든 클래스의 조상클래스인 Object클래스이 toString 메서드를 Overriding하여
+//    객체 호출시에 자동으로 toString 메서드 호출
+    @Override
+    public String toString(){
+        return "이름 :" +this.name + ", 나이 : " +this.age;
+    }
 //
 ////    @Override
 ////    public int compareTo(Student s) {

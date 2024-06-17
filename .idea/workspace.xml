@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="StreamApi start">
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="StreamAPI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0504Thread_basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0503ComparableComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="156277000" />
+      <workItem from="1717977369678" duration="158417000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718591594615</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="StreamAPI">
+      <created>1718604653867</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718604653867</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +330,8 @@
     <MESSAGE value="Protected" />
     <MESSAGE value="sort" />
     <MESSAGE value="StreamApi start" />
-    <option name="LAST_COMMIT_MESSAGE" value="StreamApi start" />
+    <MESSAGE value="StreamAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="StreamAPI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

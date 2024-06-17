@@ -1,8 +1,6 @@
 package C05AnonymousLamda;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
@@ -105,5 +103,36 @@ public class C0505StreamAPI {
         String stArr[] = {"hello", "java", "world"};
         String stAllAdd = Arrays.stream(stArr).reduce("", (a, b) -> a + b);
         System.out.println(stAllAdd);
+
+        int test[] = {10,10,20,20,20,30};
+        int answer = Arrays.stream(test).distinct().sum();
+
+//        findFirst
+        List<Student> students = new ArrayList<>();
+        students.add(new Student("kim", 25));
+        students.add(new Student("choi", 32));
+        students.add(new Student("lee", 22));
+        students.add(new Student("park", 37));
+//        나이가 30이 넘는 학생중에 첫번째 index값을 가지는 학생 객체 생성
+        Optional<Student> s1 = students.stream().filter(a-> a.age >= 30).findFirst();
+        Student s2 = students.stream().filter(a-> a.age >= 30).findFirst().get();
+        System.out.println(String.valueOf(s1));
+        System.out.println(s2);
+
+//        student 객체 실습
+//        1)모든 객체의 평균 나이    : int에 결과를 담기
+//        2)가장 나이 어린 사람 찾기  : Student에 담기
+//        3)30대 이름을 String배열에 담기
+//        1)
+        int avg = (int) students.stream().mapToInt(a->a.getAge()).average().getAsDouble();
+        System.out.println(avg);
+//        2)
+        Student s3 = students.stream().sorted(Comparator.comparing(Student::getAge)).findFirst().get();
+        Student s4 = students.stream().sorted((a,b)->a.getAge()-b.getAge()).findFirst().get();
+        System.out.println(s3);
+        System.out.println(s4);
+//        3)
+        String stArr1[] = students.stream().filter(a->a.getAge()>=30).map(a-> a.getName()).toArray(String[]::new);
+        System.out.println(Arrays.toString(stArr1));
     }
 }

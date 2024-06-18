@@ -104,7 +104,7 @@ public class C0505StreamAPI {
         String stAllAdd = Arrays.stream(stArr).reduce("", (a, b) -> a + b);
         System.out.println(stAllAdd);
 
-        int test[] = {10,10,20,20,20,30};
+        int test[] = {10, 10, 20, 20, 20, 30};
         int answer = Arrays.stream(test).distinct().sum();
 
 //        findFirst
@@ -114,8 +114,8 @@ public class C0505StreamAPI {
         students.add(new Student("lee", 22));
         students.add(new Student("park", 37));
 //        나이가 30이 넘는 학생중에 첫번째 index값을 가지는 학생 객체 생성
-        Optional<Student> s1 = students.stream().filter(a-> a.age >= 30).findFirst();
-        Student s2 = students.stream().filter(a-> a.age >= 30).findFirst().get();
+        Optional<Student> s1 = students.stream().filter(a -> a.age >= 30).findFirst();
+        Student s2 = students.stream().filter(a -> a.age >= 30).findFirst().get();
         System.out.println(String.valueOf(s1));
         System.out.println(s2);
 
@@ -124,36 +124,16 @@ public class C0505StreamAPI {
 //        2)가장 나이 어린 사람 찾기  : Student에 담기
 //        3)30대 이름을 String배열에 담기
 //        1)
-        int avg = (int) students.stream().mapToInt(a->a.getAge()).average().getAsDouble();
+        int avg = (int) students.stream().mapToInt(a -> a.getAge()).average().getAsDouble();
         System.out.println(avg);
 //        2)
         Student s3 = students.stream().sorted(Comparator.comparing(Student::getAge)).findFirst().get();
-        Student s4 = students.stream().sorted((a,b)->a.getAge()-b.getAge()).findFirst().get();
+        Student s4 = students.stream().sorted((a, b) -> a.getAge() - b.getAge()).findFirst().get();
         System.out.println(s3);
         System.out.println(s4);
 //        3)
-        String stArr1[] = students.stream().filter(a->a.getAge()>=30).map(a-> a.getName()).toArray(String[]::new);
+        String stArr1[] = students.stream().filter(a -> a.getAge() >= 30).map(a -> a.getName()).toArray(String[]::new);
         System.out.println(Arrays.toString(stArr1));
-
-
-//        ------------------------------------------------------------------------------------------------------------------------ 아래 opt
-////        Optional 객체 : 특정객체에 값이 없을지도 모른다는 것을 명시적으로 표현
-////        ofNullable : null이 있을수도 있는 경우에 Optional 객체를 생성하는 메서드
-//        Optional<String> opt1 = Optional.ofNullable(null);
-//        String st1 = null;
-//        System.out.println(opt1.get().compareTo(st1));
-
-//        Optional 객체 생성 3가지 방법
-        Optional op1 = Optional.empty();
-        Optional op2 = Optional.of("hello");            // null이 못들어감
-        Optional op3 = Optional.ofNullable("hellio");   // null이 들어갈수 있음
-
-//        Optional 객체 처리 방법 4가지
-//        방법1. isPresent() 확인후 get()
-//        방법2. orElse() : 값이 있으면 있는값 return, 없으면 지정값 return
-//        방법3. orElseGet() : 값이 있으면 있는값 return, 없으며s 람다함수 실행
-//        방법4. orElseThrow() : 가장중요.
-
 
 
     }

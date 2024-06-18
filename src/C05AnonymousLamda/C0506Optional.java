@@ -7,7 +7,7 @@ public class C0506Optional {
         ////        Optional 객체 : 특정객체에 값이 없을지도 모른다는 것을 명시적으로 표현
 ////        ofNullable : null이 있을수도 있는 경우에 Optional 객체를 생성하는 메서드
 //        Optional<String> opt1 = Optional.ofNullable(null);
-//        String st1 = null;
+//        String st1 = null
 //        System.out.println(opt1.get().compareTo(st1));
 
 //        Optional 객체 생성 3가지 방법

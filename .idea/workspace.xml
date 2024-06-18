@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Optional">
-      <change afterPath="$PROJECT_DIR$/src/C06EtcClass/C0601Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C06EtcClass/C0602Calendar.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="etc method">
+      <change afterPath="$PROJECT_DIR$/src/C06EtcClass/C0603GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C06EtcClass/C0604Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C06EtcClass/C0605EnumMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0505StreamAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0506Optional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0506Optional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C06EtcClass/C0602Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C06EtcClass/C0602Calendar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="C04Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C0602Calendar">
+  <component name="RunManager" selected="Application.C0605EnumMain">
     <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
       <module name="java_syntax" />
@@ -82,45 +82,6 @@
     </configuration>
     <configuration name="C0504Thread_basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread_basic" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0504Thread_basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread_basic" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0505StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0505StreamAPI" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0506Optional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0506Optional" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
@@ -158,13 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C0603GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0603GenericMain" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0604Iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0604Iterator" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0605EnumMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0605EnumMain" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C0605EnumMain" />
+        <item itemvalue="Application.C0604Iterator" />
+        <item itemvalue="Application.C0603GenericMain" />
         <item itemvalue="Application.C0602Calendar" />
         <item itemvalue="Application.C0601Math" />
-        <item itemvalue="Application.C0506Optional" />
-        <item itemvalue="Application.C0505StreamAPI" />
-        <item itemvalue="Application.C0504Thread_basic" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="168862000" />
+      <workItem from="1717977369678" duration="176632000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718613306364</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="etc method">
+      <created>1718673562203</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1718673562203</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +369,8 @@
     <MESSAGE value="StreamAPI" />
     <MESSAGE value="finish StreamAPI" />
     <MESSAGE value="Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
+    <MESSAGE value="etc method" />
+    <option name="LAST_COMMIT_MESSAGE" value="etc method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

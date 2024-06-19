@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Calendar,&#10;Generic,&#10;Iterator,&#10;Enum">
-      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0701Exception.java" afterDir="false" />
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="190252000" />
+      <workItem from="1717977369678" duration="194679000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -340,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718682107004</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exception">
+      <created>1718707936429</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718707936429</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +384,8 @@
     <MESSAGE value="Optional" />
     <MESSAGE value="etc method" />
     <MESSAGE value="Calendar,&#10;Generic,&#10;Iterator,&#10;Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar,&#10;Generic,&#10;Iterator,&#10;Enum" />
+    <MESSAGE value="Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

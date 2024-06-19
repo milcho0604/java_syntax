@@ -21,9 +21,9 @@ public class AuthorController {
             System.out.println("서비스 번호를 입력하세요.\n"+"1. 회원가입\n" + "2. 로그인");
             int input = Integer.parseInt(sc.nextLine());
             if(input==1){
-                authorService.authorRepository.register();
+                authorService.register();
             } else if (input ==2) {
-                authorService.authorRepository.login();
+                authorService.login();
             }
         }
     }

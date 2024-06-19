@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Exception">
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="AuthorRepository,&#10;AuthorService&#10;수정">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0702FileParsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0703JsonParsing1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0704JsonParsing2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0705JsonParsing3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/test_data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/test_data2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/AuthorException/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_syntax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_syntax.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,41 +51,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/milcho/code/java/java_syntax/src/C04Interface",
+    "last_opened_file_path": "/Users/milcho/code/java/java_syntax/src/C07ExceptionFileParsing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="C07ExceptionFileParsing" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/C07ExceptionFileParsing" />
       <recent name="$PROJECT_DIR$/src/C04Interface" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="C04Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AuthorController">
-    <configuration name="AuthorController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.AuthorException.AuthorController" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.AuthorException.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C0705JsonParsing3">
     <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
       <module name="java_syntax" />
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0603GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0603GenericMain" />
+    <configuration name="C0703JsonParsing1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0604Iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0604Iterator" />
+    <configuration name="C0703JsonParsing1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0605EnumMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C06EtcClass.C0605EnumMain" />
+    <configuration name="C0703JsonParsing1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C06EtcClass.*" />
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +142,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0701Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0701Exception" />
+    <configuration name="C0703JsonParsing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0703JsonParsing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0704JsonParsing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0704JsonParsing2" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0705JsonParsing3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0705JsonParsing3" />
+      <module name="java_syntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C0705JsonParsing3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0705JsonParsing3" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AuthorController" />
-        <item itemvalue="Application.C0701Exception" />
-        <item itemvalue="Application.C0605EnumMain" />
-        <item itemvalue="Application.C0604Iterator" />
-        <item itemvalue="Application.C0603GenericMain" />
+        <item itemvalue="Application.C0705JsonParsing3" />
+        <item itemvalue="Application.C0705JsonParsing3 (1)" />
+        <item itemvalue="Application.C0704JsonParsing2" />
+        <item itemvalue="Application.C0703JsonParsing1 (4)" />
+        <item itemvalue="Application.C0703JsonParsing1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +232,7 @@
       <workItem from="1717548500934" duration="7000" />
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
-      <workItem from="1717977369678" duration="194679000" />
+      <workItem from="1717977369678" duration="208456000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -345,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718707936429</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="AuthorRepository,&#10;AuthorService&#10;수정">
+      <created>1718759804697</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718759804697</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +442,8 @@
     <MESSAGE value="etc method" />
     <MESSAGE value="Calendar,&#10;Generic,&#10;Iterator,&#10;Enum" />
     <MESSAGE value="Exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
+    <MESSAGE value="AuthorRepository,&#10;AuthorService&#10;수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthorRepository,&#10;AuthorService&#10;수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

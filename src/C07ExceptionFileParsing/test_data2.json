@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "name": "infp",
+  "classNumber": "1",
+  "city": "seoul"
+},
+  {
+    "id": 2,
+    "name": "entj",
+    "classNumber": "2",
+    "city": "seoul"
+  },
+  {
+    "id": 3,
+    "name": "intj",
+    "classNumber": "3",
+    "city": "seoul"
+  }
+  ]

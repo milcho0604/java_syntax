@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="finish Thread">
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="정리 및 수정">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C09NetWorking/C0901Webserver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C09NetWorking/C0902Webserver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C09NetWorking/C0903DatabaseConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C09NetWorking/C0904Webserver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C10Annotation/C10ReflectionBasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0702FileParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0702FileParsing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0703JsonParsing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C07ExceptionFileParsing/C0703JsonParsing1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_syntax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_syntax.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +70,18 @@
       <recent name="$PROJECT_DIR$/src/C04Interface" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="C09NetWorking" />
       <recent name="C08Thread" />
       <recent name="C04Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
-    <configuration name="C0504Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread" />
+  <component name="RunManager" selected="Application.C10ReflectionBasic">
+    <configuration name="C0902Webserver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C09NetWorking.C0902Webserver2" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
+          <option name="PATTERN" value="C09NetWorking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0504Thread_basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05AnonymousLamda.C0504Thread_basic" />
+    <configuration name="C0903DatabaseConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C09NetWorking.C0903DatabaseConnect" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C05AnonymousLamda.*" />
+          <option name="PATTERN" value="C09NetWorking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0703JsonParsing1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
+    <configuration name="C0904Webserver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C09NetWorking.C0904Webserver3" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="PATTERN" value="C09NetWorking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0703JsonParsing1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
+    <configuration name="C10ReflectionBasic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C10Annotation.C10ReflectionBasic" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
+          <option name="PATTERN" value="C10Annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,77 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C0703JsonParsing1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
+    <configuration name="C10ReflectionBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C10Annotation.C10ReflectionBasic" />
       <module name="java_syntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0703JsonParsing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0703JsonParsing1" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0704JsonParsing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0704JsonParsing2" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0705JsonParsing3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0705JsonParsing3" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C0705JsonParsing3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07ExceptionFileParsing.C0705JsonParsing3" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C07ExceptionFileParsing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C08Thread.MainClass" />
-      <module name="java_syntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C08Thread.*" />
+          <option name="PATTERN" value="C10Annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,10 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.C0705JsonParsing3" />
-        <item itemvalue="Application.C0705JsonParsing3 (1)" />
-        <item itemvalue="Application.C0704JsonParsing2" />
+        <item itemvalue="Application.C10ReflectionBasic" />
+        <item itemvalue="Application.C10ReflectionBasic (1)" />
+        <item itemvalue="Application.C0904Webserver3" />
+        <item itemvalue="Application.C0903DatabaseConnect" />
+        <item itemvalue="Application.C0902Webserver2" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +167,7 @@
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
       <workItem from="1717977369678" duration="215376000" />
-      <workItem from="1718841308866" duration="2695000" />
+      <workItem from="1718841308866" duration="15441000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -409,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718786420709</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="정리 및 수정">
+      <created>1718846177490</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718846177490</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;commit&#10;&quot;" />
     <MESSAGE value="basic" />
     <MESSAGE value="plus list" />
     <MESSAGE value="List Syntax" />
@@ -452,7 +400,8 @@
     <MESSAGE value="AuthorRepository,&#10;AuthorService&#10;수정" />
     <MESSAGE value="finish FileParsing" />
     <MESSAGE value="finish Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish Thread" />
+    <MESSAGE value="정리 및 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="정리 및 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,6 +409,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArithmeticException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

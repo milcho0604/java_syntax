@@ -51,9 +51,5 @@ public class C0702FileParsing {
         }else {
             Files.write(filePath, "".getBytes(), StandardOpenOption.CREATE_NEW);
         }
-
-
-
-
     }
 }

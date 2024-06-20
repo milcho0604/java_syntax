@@ -36,12 +36,13 @@ public class C0703JsonParsing1 {
         Student student3 = objectMapper.readValue(jsonString, Student.class);
         System.out.println(student3);
 
-//        List<Student> students =
     }
 
 
 }
 
+// objectMapper는 getter 또는 setter 메서드명을 통해 필드값을 유추
+// 실제 갑의 setting은 reflection이라는 기술을 통해 변수값에 할당 *****
 class Student {
     private int id;
     private String name;

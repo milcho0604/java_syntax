@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Finish network">
+    <list default="true" id="8ad9c55b-3d07-4cf0-9b50-58ad72be0cdf" name="Changes" comment="Finish java_basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C10Annotation/C1001ReflectionBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C10Annotation/C1001ReflectionBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C10Annotation/C1002Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C10Annotation/C1002Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05AnonymousLamda/C0502AnonymousClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C05AnonymousLamda/C0502AnonymousClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C06EtcClass/C0602Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C06EtcClass/C0602Calendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C06EtcClass/C0603GenericMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C06EtcClass/C0603GenericMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C06EtcClass/C0605EnumMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C06EtcClass/C0605EnumMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +190,7 @@
       <workItem from="1717548540174" duration="21000" />
       <workItem from="1717548588944" duration="25412000" />
       <workItem from="1717977369678" duration="215376000" />
-      <workItem from="1718841308866" duration="18195000" />
+      <workItem from="1718841308866" duration="27054000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit&#10;&quot;">
       <created>1717555440123</created>
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718864953556</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Finish java_basic">
+      <created>1718868704404</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718868704404</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="plus list" />
     <MESSAGE value="List Syntax" />
     <MESSAGE value="Plus Map" />
     <MESSAGE value="Plus set" />
@@ -429,7 +437,8 @@
     <MESSAGE value="finish Thread" />
     <MESSAGE value="정리 및 수정" />
     <MESSAGE value="Finish network" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish network" />
+    <MESSAGE value="Finish java_basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish java_basic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

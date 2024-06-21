@@ -20,6 +20,7 @@ public class C0602Calendar {
 //        System.out.println(calendar.get(Calendar.MINUTE));
 //        System.out.println(calendar.get(Calendar.SECOND));
 
+
 //        java.time 패키지 : Local~ 클래스
 //        날짜(LocalDate) - date타입, 시간(LocalTime), 날짜와 시간(LocalDateTime)-datetime타입
 
@@ -65,7 +66,7 @@ public class C0602Calendar {
 
     static void myWatch(LocalDateTime localDateTime, ChronoField c) {
         if (c == ChronoField.YEAR) {
-            System.out.println("얀도는 " + localDateTime.get(c) + "입니다.");
+            System.out.println("연도는 " + localDateTime.get(c) + "입니다.");
         } else if (c == ChronoField.MONTH_OF_YEAR) {
             System.out.println("월은" + localDateTime.get(c) + "입니다.");
         } else if (c == ChronoField.AMPM_OF_DAY) {

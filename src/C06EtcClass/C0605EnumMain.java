@@ -1,6 +1,7 @@
 package C06EtcClass;
 
 public class C0605EnumMain {
+//    타입에 제한
     public static void main(String[] args) {
         EnumStudent s1 = new EnumStudent();
         s1.setName("홍길동");

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 결국 Generic타입은 중복방지를 위해 사용, 유연성 향상
 public class C0603GenericMain {
     public static void main(String[] args) {
         String[] stArr = {"java", "python", "c++"};
@@ -28,7 +29,7 @@ public class C0603GenericMain {
         myList.add("hello");
         myList.add("java");
 ////        컴파일후 제네릭 소거
-//        List myList = new ArrayList<>();
+//        List myList = new ArrayList();
 //        myList.add("hello");
 //        myList.add("java");
     }
